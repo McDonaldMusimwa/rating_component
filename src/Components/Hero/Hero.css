@@ -1,0 +1,16 @@
+.Head{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.para{
+    font-weight:lighter;
+}
+
+.parent-hero{
+    color: white;
+    width: 17rem;
+    height: 5rem;
+    margin-top: 11rem;
+    padding-left: 2rem;
+}

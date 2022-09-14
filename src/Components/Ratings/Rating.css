@@ -1,0 +1,27 @@
+button{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.5rem;
+    background-color: var(--topColor);
+    color: white;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: var(--orange);
+
+}
+.Rating{
+    margin-left: 1.4rem;
+    margin-top: 3rem;
+    
+}
+.submit{
+    width: 16.5rem;
+    background-color: var(--orange);
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.submit:hover{
+    background-color: var(--selected);
+    color: var(--orange);
+}

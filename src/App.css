@@ -1,0 +1,18 @@
+:root{
+  --baseColor:rgb(15, 11, 37);
+  --topColor:rgb(16, 30, 59);
+  --orange:rgb(255, 115, 0);
+  --selected:rgb(189, 188, 188);
+}
+
+
+.App{
+  color: black;
+  width: 20rem;
+  height: 20rem;
+  background-color: var(--baseColor);
+  justify-content: center;
+  align-items: center;
+  margin: 10rem auto 10rem auto;
+  border-radius: 25px;
+}

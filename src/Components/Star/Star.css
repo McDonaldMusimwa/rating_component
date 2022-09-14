@@ -1,0 +1,17 @@
+.star-c{
+    width: 1.5rem;
+    height: 1.8rem;
+    background-color:var(--topColor);
+    border-radius: 50%;
+    margin-bottom: -10rem;
+    margin-left: 1rem;
+    padding-left:0.7rem;
+    padding-top:0.2rem;
+}
+.star{
+    padding-top: 1rem;
+}
+.star-c>img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
