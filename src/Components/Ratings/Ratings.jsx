@@ -2,14 +2,13 @@ import './Rating.css'
 import { useState } from 'react'
 import Modal from '../Modal/Modal'
 
-function Rating(){
+function Rating(props){
     const [rating,setRating]=useState(null)
     const [openModal,setOpenModal]=useState(false)
 
     const shoMoDal =()=>{
-        return(
-            setOpenModal((pre)=>!pre)
-        )
+     props.setRating(rating)
+        
     }
     return(
         <div className='Rating'>
